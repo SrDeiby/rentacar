@@ -1,0 +1,123 @@
+{
+  "nombre": "Pura Vida Rent a Car",
+  "slogan": "Alquiler de carros en Liberia y Guanacaste",
+  "whatsapp": "50661827027",
+  "telefono": "+506 6182-7027",
+  "email": "reservas@rentacarliberia-demo.com",
+  "direccion": "200 m oeste del Aeropuerto Internacional Daniel Oduber, Liberia, Guanacaste",
+  "ciudad": "Liberia",
+  "provincia": "Guanacaste",
+  "horario": "Lunes a domingo, 6:00 a.m. – 9:00 p.m.",
+  "moneda": "USD",
+  "reglas": {
+    "descuentoSemanal": 0.1,
+    "diasParaDescuento": 7,
+    "minimoDias": 2
+  },
+  "extras": [
+    { "id": "seguro-total", "nombre": "Seguro total (cero deducible)", "precio": 18, "tipo": "por_dia" },
+    { "id": "silla-bebe", "nombre": "Silla de bebé", "precio": 5, "tipo": "por_dia" },
+    { "id": "conductor-extra", "nombre": "Conductor adicional", "precio": 4, "tipo": "por_dia" },
+    { "id": "entrega-aeropuerto", "nombre": "Entrega en aeropuerto LIR", "precio": 25, "tipo": "unico" }
+  ],
+  "requisitos": {
+    "intro": "Para entregarte el carro necesitamos verificar tu identidad y tu licencia. Tené estos documentos a mano el día de la recogida.",
+    "generales": [
+      {
+        "icono": "🎂",
+        "titulo": "Edad mínima",
+        "detalle": "23 años cumplidos. Conductores de 21 y 22 años pueden alquilar con un recargo de $10 por día."
+      },
+      {
+        "icono": "💳",
+        "titulo": "Tarjeta de crédito",
+        "detalle": "A nombre del conductor principal, para el depósito de garantía. No aceptamos tarjetas de débito para el depósito."
+      },
+      {
+        "icono": "🛡️",
+        "titulo": "Seguro obligatorio",
+        "detalle": "El seguro de responsabilidad civil que exige la ley está incluido en todas nuestras tarifas."
+      }
+    ],
+    "grupos": [
+      {
+        "id": "turistas",
+        "titulo": "Turistas extranjeros",
+        "documentos": [
+          {
+            "icono": "🛂",
+            "titulo": "Pasaporte vigente",
+            "detalle": "Original, con el sello de entrada a Costa Rica."
+          },
+          {
+            "icono": "🪪",
+            "titulo": "Licencia de conducir de tu país",
+            "detalle": "Vigente y original. Es válida en Costa Rica mientras dure tu permiso de turista (hasta 90 días desde tu entrada)."
+          },
+          {
+            "icono": "🏨",
+            "titulo": "Domicilio",
+            "detalle": "Dirección de tu hospedaje en Costa Rica y tu dirección permanente en tu país."
+          },
+          {
+            "icono": "✈️",
+            "titulo": "Datos de vuelo",
+            "detalle": "Si la entrega es en el aeropuerto, número de vuelo y hora de llegada."
+          }
+        ]
+      },
+      {
+        "id": "residentes",
+        "titulo": "Costarricenses y residentes",
+        "documentos": [
+          {
+            "icono": "🪪",
+            "titulo": "Cédula de identidad o DIMEX",
+            "detalle": "Vigente y original."
+          },
+          {
+            "icono": "🚗",
+            "titulo": "Licencia de conducir costarricense",
+            "detalle": "Vigente, del tipo correspondiente al vehículo (B1 para carros livianos)."
+          },
+          {
+            "icono": "🏠",
+            "titulo": "Comprobante de domicilio",
+            "detalle": "Recibo de luz, agua o teléfono a tu nombre, de los últimos 3 meses."
+          },
+          {
+            "icono": "📱",
+            "titulo": "Contacto",
+            "detalle": "Número de teléfono y correo electrónico activos."
+          }
+        ]
+      }
+    ],
+    "deposito": {
+      "titulo": "Depósito de garantía",
+      "detalle": "Se hace una retención (no un cobro) en tu tarjeta de crédito al recoger el carro y se libera al devolverlo en buen estado.",
+      "montos": [
+        { "concepto": "Con seguro básico", "monto": 1000 },
+        { "concepto": "Con seguro total (cero deducible)", "monto": 300 }
+      ]
+    },
+    "preguntas": [
+      {
+        "pregunta": "¿Puedo manejar en Costa Rica con la licencia de mi país?",
+        "respuesta": "Sí. La licencia extranjera vigente es válida mientras dure tu permiso de turista, hasta 90 días desde tu entrada al país. Debés andar el pasaporte con el sello de entrada."
+      },
+      {
+        "pregunta": "¿Puedo pagar el depósito con tarjeta de débito?",
+        "respuesta": "El alquiler sí se puede pagar con débito, pero el depósito de garantía requiere una tarjeta de crédito a nombre del conductor principal."
+      },
+      {
+        "pregunta": "¿Puede manejar otra persona?",
+        "respuesta": "Sí, agregándola como conductor adicional. Debe presentar los mismos documentos que el conductor principal."
+      },
+      {
+        "pregunta": "¿Qué pasa si no cumplo algún requisito?",
+        "respuesta": "Escribinos por WhatsApp antes de reservar. En algunos casos podemos ofrecer alternativas, como un depósito mayor."
+      }
+    ]
+  }
+}

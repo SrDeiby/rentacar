@@ -1,0 +1,11 @@
+[
+  { "id": 101, "carroId": 1, "desde": "2026-10-03", "hasta": "2026-10-07", "estado": "confirmada" },
+  { "id": 102, "carroId": 1, "desde": "2026-10-15", "hasta": "2026-10-18", "estado": "confirmada" },
+  { "id": 103, "carroId": 2, "desde": "2026-10-01", "hasta": "2026-10-04", "estado": "confirmada" },
+  { "id": 104, "carroId": 2, "desde": "2026-10-20", "hasta": "2026-10-27", "estado": "pendiente" },
+  { "id": 105, "carroId": 3, "desde": "2026-10-09", "hasta": "2026-10-12", "estado": "confirmada" },
+  { "id": 106, "carroId": 4, "desde": "2026-10-05", "hasta": "2026-10-10", "estado": "confirmada" },
+  { "id": 107, "carroId": 4, "desde": "2026-11-01", "hasta": "2026-11-08", "estado": "confirmada" },
+  { "id": 108, "carroId": 5, "desde": "2026-10-24", "hasta": "2026-10-26", "estado": "confirmada" },
+  { "id": 109, "carroId": 3, "desde": "2026-10-01", "hasta": "2026-10-02", "estado": "cancelada" }
+]

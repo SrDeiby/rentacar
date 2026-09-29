@@ -1,0 +1,49 @@
+/* Cambiá estos colores para adaptar la plantilla a cada cliente */
+:root {
+  --primario: #0e7c6b;
+  --primario-oscuro: #0a5f52;
+  --acento: #f4a340;
+  --texto: #1d2a2a;
+  --gris: #66727a;
+  --borde: #e3e8ea;
+  --fondo: #f7f9f8;
+  --blanco: #ffffff;
+  --libre: #eef6f4;
+  --ocupado: #fbe4e4;
+  --rango: #cfe9e3;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  color: var(--texto);
+  background: var(--fondo);
+  line-height: 1.55;
+}
+
+img { max-width: 100%; }
+a { color: var(--primario); }
+
+.contenedor { width: min(1120px, 100% - 2rem); margin-inline: auto; }
+.seccion { padding: 3rem 0 0; }
+.seccion h2 { font-size: 1.7rem; margin: 0 0 1.25rem; }
+
+.btn {
+  display: inline-block;
+  background: var(--primario);
+  color: #fff;
+  padding: .7rem 1.2rem;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover { background: var(--primario-oscuro); }
+.btn-sm { padding: .45rem .9rem; font-size: .9rem; }
+.btn-claro { background: #fff; color: var(--primario); }
+.btn-claro:hover { background: #eef6f4; }
+
+.grid-carros { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.25rem; }
